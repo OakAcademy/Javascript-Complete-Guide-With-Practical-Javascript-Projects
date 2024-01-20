@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>What is in the box ?</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>What is in the box ?</h1>
+      </header>
+      <div class="score_container">
+        <p class="label-score">Score: <span class="value-score">50</span></p>
+        <p class="label-highscore">
+          Highscore: <span class="highscore">0</span>
+        </p>
+      </div>
+      <main>
+        <section class="game-container">
+          <div class="label-number">?</div>
+          <p class="range-info text">
+            ( Please enter a number between 1 and 50 )
+          </p>
+          <input class="input-number" />
+
+          <p class="info-text text">Let's enter a number...</p>
+          <div class="btn-container">
+            <button class="btn guess">Guess</button>
+            <button class="btn reset">Reset</button>
+          </div>
+        </section>
+        <section class="right"></section>
+      </main>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
